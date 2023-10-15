@@ -1,0 +1,6 @@
+size(600,400)
+strokeWeight(20)
+ellipse(300,200,400,400)
+line(300,50,300,200)
+translate(0,100)
+line(300,100,300,200)
