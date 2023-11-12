@@ -1,0 +1,7 @@
+size(600,600)
+translate(300,300)
+strokeWeight(5)
+scale(3,-2)
+triangle(0,0,475,368,143,532)
+rect(0,0,-200,-200)
+point(10,50)
