@@ -22,9 +22,19 @@ def draw():
     line(340,475,390,475)
     line(340,490,390,490)
     line(340,505,390,505)
+    stroke(255,235,3)
+    strokeWeight(20)
+    point(365,490)
     stroke(247,217,217)
     strokeWeight(65)
     point(75,250)
+    stroke(255,0,0)
+    strokeWeight(5)
+    line(50,250,75,275)
+    line(75,275,100,250)
+    stroke(0,0,0)
+    point(60,235)
+    point(90,235)
     stroke(19,229,234)
     fill(19,229,234)
     strokeWeight(15)
@@ -35,9 +45,13 @@ def draw():
     strokeWeight(25)
     line(45,442,45,542)
     line(110,442,110,542)
+    line(110,542,130,542)
+    line(45,542,25,542)
 def mouseClicked():
     global y,t,g,j,c
     y=y+c
     t=t+c
     g=g+c
     j=j+c
+    stroke(255,255,255)
+    rect(340,475,50,50)
