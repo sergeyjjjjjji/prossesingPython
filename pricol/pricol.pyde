@@ -8,7 +8,7 @@ def setup():
 def draw():
     global y,t,g,j,c
     clear()
-    background(255,255,255)
+    background(193,255,254)
     stroke(142,103,20)
     fill(142,103,20)
     rect(275,y,50,100)
@@ -53,5 +53,6 @@ def mouseClicked():
     t=t+c
     g=g+c
     j=j+c
-    stroke(255,255,255)
+    stroke(255,167,3)
     rect(340,475,50,50)
+    #bruhbruhbrruhbruhbruhbruhbruhbruhbruhbruhbruhbruhbruhbruhbruhbruhbruhbruhbruhbruhbruhbruhbrubrhubruhbruhbruhbruhbruhbruhbruhbruhbruhbruhbruhb
